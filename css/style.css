@@ -28,6 +28,10 @@ body {
   padding-bottom: 90px;
 }
 
+.black-h2 {
+  color: #000000;
+}
+
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
