@@ -28,10 +28,14 @@
   }
 
   .slider_section {
-    /* height: 100%; */
+    /*         height: 100%; */
+    /*         width: 100%; */
+    background-position: 50%;
+    background-attachment: scroll;
     background-size: cover;
-    background-position: 50% -50px;
-    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
   }
 
   .custom_nav-container {
@@ -126,6 +130,9 @@
 }
 
 @media (max-width: 480px) {
+  .slider_section {
+    background-size: cover;
+  }
 }
 
 @media (max-width: 400px) {
