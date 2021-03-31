@@ -30,9 +30,9 @@
     }
 
     .slider_section {
-        height: 100%;
-        background-position: 50% -50px;
-        background-attachment: fixed;
+/*         height: 100%; */
+/*         width: 100%; */
+        background-attachment: scroll;
         background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
