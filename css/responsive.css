@@ -33,7 +33,7 @@
         height: 100%;
         background-size: cover;
         background-position: 50% -50px;
-        background-attachment:scroll;
+        background-attachment: fixed;
     }
 
     .custom_nav-container {
