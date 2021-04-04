@@ -843,5 +843,8 @@ a.navbar-brand {
 .btn-link {
   color: $btnWhite;
 }
+.btn-link:hover {
+  color: $primary;
+}
 
 /* end footer section*/

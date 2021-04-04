@@ -934,5 +934,9 @@ a.navbar-brand {
   color: #f4f3f3;
 }
 
+.btn-link:hover {
+  color: #f0a500;
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
