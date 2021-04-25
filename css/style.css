@@ -239,9 +239,9 @@ a.navbar-brand {
   width: 100%;
 }
 
-.slider_section .detail-box h2 {
+/* .slider_section .detail-box h2 {
   color: #f0a500;
-}
+} */
 
 .slider_section .detail-box h1 {
   font-size: 4rem;
@@ -249,11 +249,15 @@ a.navbar-brand {
   color: #f4f3f3;
   text-transform: uppercase;
   text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 15px;
 }
 
 .slider_section .detail-box h3 {
   color: #f0a500;
-  text-shadow: 2px 2px 3px #000000;
+  text-shadow: 2px 2px 1px #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .slider_section .detail-box .btn-box {
@@ -485,7 +489,7 @@ a.navbar-brand {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: rgba(67, 17, 125, 0.9);
+  background-color: rgb(29 51 78 / 90%);
 }
 
 .service_section .service_container .box:hover .link_box {
@@ -503,7 +507,7 @@ a.navbar-brand {
 }
 
 .us_section {
-  background-color: #3c0e78;
+  background-color: #1d334e;
   color: #f4f4f4;
 }
 
@@ -511,6 +515,7 @@ a.navbar-brand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
 }
 
 .us_section .us_container .box {
@@ -897,14 +902,22 @@ a.navbar-brand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 45px auto 15px auto;
+  margin: 10px auto 30px auto;
 }
 
-.info_section .info_social img {
-  width: 35px;
-  margin-right: 8px;
+.bi-instagram,
+.bi-telegram,
+.bi-youtube {
+  font-size: 1.5rem;
+  padding: 0 20px;
+  color: #f4f4f4;
 }
 
+.bi-instagram:hover,
+.bi-telegram:hover,
+.bi-youtube:hover {
+  color: #f0a500;
+}
 /* end info section */
 /* footer section*/
 .footer_section {
@@ -923,20 +936,17 @@ a.navbar-brand {
   color: #f4f4f4;
 }
 
-.card {
-  background-color: transparent;
-}
-
 .btn-link {
-  color: #f4f3f3;
+  color: #151615;
 }
 
 .btn-link:hover {
-  color: #f0a500;
+  color: #f4f4f4;
 }
 
 .payments {
   width: 300px;
+  padding-bottom: 30px;
 }
 
 .align-contacts {
@@ -945,5 +955,59 @@ a.navbar-brand {
   align-items: center;
 }
 
+.card {
+  background-color: transparent;
+  background-color: #f0a500;
+}
+
+.card-body {
+  color: #151615;
+}
+
+.timer {
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.counter-date {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 600;
+  list-style-type: none;
+  padding: 0 15px;
+  text-shadow: 4px 4px 2px #1d334e;
+}
+
+.counting-span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.message {
+  font-size: 2rem;
+  display: none;
+  padding: 1rem;
+}
+
+.emoji {
+  padding: 0 0.25rem;
+}
+
+@media all and (max-width: 768px) {
+  .timer {
+    font-size: 1.5rem;
+  }
+
+  .counter-date {
+    font-size: 1.125rem;
+    padding: 0.75rem;
+  }
+
+  .counting-span {
+    font-size: 3.375rem;
+  }
+}
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
