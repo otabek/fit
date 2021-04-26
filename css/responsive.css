@@ -54,6 +54,17 @@
   }
 }
 
+@media all and (max-width: 768px) {
+  .counter-date {
+    font-size: 1.125rem;
+    padding: 0.75rem;
+  }
+
+  .counting-span {
+    font-size: 3.375rem;
+  }
+}
+
 @media (max-width: 768px) {
   .slider_section .detail-box {
     text-align: center;
@@ -62,10 +73,6 @@
   .slider_section .detail-box .btn-box {
     justify-content: center;
   }
-
-  /* .slider_section .detail-box {
-    padding-bottom: 120px;
-  } */
 
   .slider_section .carousel-indicators {
     justify-content: center;
@@ -119,6 +126,14 @@
 
   .info_section .info_social {
     justify-content: center;
+  }
+
+  .counter-date {
+    padding: 0 10px;
+  }
+
+  .layout_padding {
+    padding: 70px 0;
   }
 }
 

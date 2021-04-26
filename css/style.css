@@ -996,9 +996,9 @@ a.navbar-brand {
 }
 
 @media all and (max-width: 768px) {
-  .timer {
+  /* .timer {
     font-size: 1.5rem;
-  }
+  } */
 
   .counter-date {
     font-size: 1.125rem;
