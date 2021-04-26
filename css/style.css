@@ -919,9 +919,23 @@ a.navbar-brand {
   color: #f0a500;
 }
 /* end info section */
+hr {
+  background-color: #1a1c20;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+hr.hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(233, 160, 0),
+    rgba(0, 0, 0, 0)
+  );
+}
 /* footer section*/
 .footer_section {
-  border-top: 2px solid #151615;
   background-color: #1a1c20;
   padding: 20px 0;
 }
@@ -994,20 +1008,18 @@ a.navbar-brand {
 .emoji {
   padding: 0 0.25rem;
 }
-
-@media all and (max-width: 768px) {
-  /* .timer {
-    font-size: 1.5rem;
-  } */
-
-  .counter-date {
-    font-size: 1.125rem;
-    padding: 0.75rem;
-  }
-
-  .counting-span {
-    font-size: 3.375rem;
-  }
-}
 /* end footer section*/
+
+/*uydaOzaman*/
+.list-group-item {
+  text-align: left;
+  background-color: transparent;
+  border: 1px solid #f0a500;
+}
+
+.img-fluid {
+  border-radius: 7px;
+}
+
+/* end of uydaOzaman*/
 /*# sourceMappingURL=style.css.map */
