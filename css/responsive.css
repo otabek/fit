@@ -140,6 +140,7 @@
 @media (max-width: 576px) {
   .slider_section .detail-box h1 {
     font-size: 3rem;
+    visibility: hidden;
   }
 }
 
