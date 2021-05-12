@@ -1037,6 +1037,9 @@ h5.black {
   margin-bottom: 20px;
   font-weight: 500;
 }
+button.btn {
+  text-align: left;
+}
 
 /* end of uydaOzaman*/
 /*# sourceMappingURL=style.css.map */
