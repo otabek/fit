@@ -140,7 +140,15 @@
 @media (max-width: 576px) {
   .slider_section .detail-box h1 {
     font-size: 3rem;
-    visibility: hidden;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    /* visibility: hidden; */
+  }
+
+  .slider_section .detail-box h3 {
+    text-transform: none;
+    margin-top: 15px;
+    font-size: x-large;
   }
 }
 

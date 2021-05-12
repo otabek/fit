@@ -4,6 +4,14 @@ body {
   color: #f4f4f4;
   background-color: #ffffff;
 }
+.neuton,
+p {
+  font-family: 'Neuton';
+}
+
+.tangerine {
+  font-family: 'Tangerine';
+}
 
 .layout_padding {
   padding: 90px 0;
@@ -29,8 +37,12 @@ body {
   padding-bottom: 90px;
 }
 
-.black-h2 {
+.black {
   color: #000000;
+}
+
+.white {
+  color: #f4f3f3;
 }
 
 .heading_container {
@@ -247,7 +259,6 @@ a.navbar-brand {
   font-size: 4rem;
   font-weight: bold;
   color: #f4f3f3;
-  text-transform: uppercase;
   text-shadow: 2px 2px 4px #000000;
   margin-bottom: 15px;
 }
@@ -1019,6 +1030,12 @@ hr.hr {
 
 .img-fluid {
   border-radius: 7px;
+}
+
+h5.black {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
 /* end of uydaOzaman*/
