@@ -138,6 +138,11 @@
 }
 
 @media (max-width: 576px) {
+  .slider_section .detail-box {
+    padding-bottom: 10px;
+    padding-top: 70px;
+  }
+
   .slider_section .detail-box h1 {
     font-size: 3rem;
     padding-top: 50px;
@@ -146,10 +151,14 @@
   }
 
   .slider_section .detail-box h3 {
-    text-transform: none;
-    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-top: 60px;
     font-size: x-large;
   }
+}
+
+#countdown {
+  line-height: 1.2;
 }
 
 @media (max-width: 480px) {

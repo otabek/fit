@@ -990,7 +990,6 @@ hr.hr {
 }
 
 .timer {
-  letter-spacing: 0.125rem;
   text-transform: uppercase;
   color: #f4f4f4;
   text-shadow: 1px 1px 2px #000000;
