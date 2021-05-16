@@ -66,6 +66,10 @@
 }
 
 @media (max-width: 768px) {
+  .about_section .box {
+    width: 95%;
+  }
+
   .slider_section .detail-box {
     text-align: center;
   }
